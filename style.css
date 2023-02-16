@@ -1,19 +1,21 @@
-:root {
-  --base: #ffc600;
-  --spacing: 10px;
-  --blur: 10px;
-}
-
 img {
-  padding: var(--spacing);
-  background: var(--base);
-  filter: blur(var(--blur));
+  padding: 10px;
+  background: yellow;
+  filter: blur(5px);
+  box-shadow: 0 0 1rem 0.1rem rgb(184, 184, 184);
 }
 
 .hl {
-  color: var(--base);
+  color: yellow;
 }
 
+#val {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+}
 /*
     misc styles, nothing to do with CSS variables
   */
